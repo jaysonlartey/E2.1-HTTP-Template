@@ -1,7 +1,7 @@
 {
 	"name": "2.1-http",
 	"scripts": {
-		"server": "nodemon --watch 'src/**/*.ts' --exec 'tsx' src/server.ts"
+		"server": "nodemon --watch '**/*.ts' --exec 'tsx' server.ts"
 	},
 	"dependencies": {
 		"@types/node": "^20.11.10",
